@@ -37,13 +37,26 @@ form{
 }
 
 
-form div>p{
+form div.login p{
         padding: 10px;
-        border: 3px solid rgb(25, 36, 71);
-        border-radius: 20px;
-        background-image: linear-gradient(to right, rgb(25, 36, 71), rgba(183, 214, 241, 0.226));
+        border-radius: 20px;        
 }
 
+input.login{
+        color: rgb(25, 36, 71);
+        border: 1px solid rgb(25, 36, 71);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.055);
+        border-radius: 30px;
+        width: 250px;
+        height: 30px;
+}
+
+input.acao{
+        border-radius: 30px;
+        height: 30px
+        
+}
 
 
 
